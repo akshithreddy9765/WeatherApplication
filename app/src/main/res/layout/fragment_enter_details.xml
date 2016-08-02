@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akshi.weatherapp.WeatherFragments.EnterDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/cityET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/city_name"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/stateET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cityET"
+        android:layout_marginTop="20dp"
+        android:hint="@string/state_name"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/dataButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stateET"
+        android:layout_marginTop="20dp"
+        android:text="@string/weather_button" />
+
+    <Button
+        android:id="@+id/current_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stateET"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/dataButton"
+        android:text="Current Location weather" />
+
+
+</RelativeLayout>

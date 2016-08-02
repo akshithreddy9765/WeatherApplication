@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="city_name">Enter City</string>
+    <string name="state_name">Enter State</string>
+    <string name="weather_button">Get Weather</string>
+    <string name="accept_permission">Please accept permission to access Location</string>
+</resources>
